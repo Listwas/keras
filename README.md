@@ -7,15 +7,6 @@ The goal is to compare different CNN architectures and evaluate their performanc
 
 ## Dataset
 
-The dataset is organized into training and test sets:
-BrainTumorDataset/
-|-- train/
-| |-- no/
-| |-- yes/
-|---test/
-|--- no/
-|--- yes/
-
 - Images are resized to **256×256**
 - Binary classification: tumor / no tumor
 - Class distribution is checked before training
